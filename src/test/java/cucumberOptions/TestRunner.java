@@ -11,5 +11,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(features = "src/test/java/features",
 glue="src/test/java/stepDefinitions")
 public class TestRunner {
-
+public void test() {
+	System.out.println("test");
+}
 }
